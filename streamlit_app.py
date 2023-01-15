@@ -3,8 +3,7 @@ import time
 
 html_string = """
             <audio controls autoplay>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
+  <source src="https://www.orangefreesounds.com/wp-content/uploads/2022/04/Small-bell-ringing-short-sound-effect.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
             """
