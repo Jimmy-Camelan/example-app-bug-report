@@ -11,10 +11,11 @@ html_string = """
 sound = st.empty()
 sound.markdown(html_string, unsafe_allow_html=True)  # will display a st.audio with the sound you specified in the "src" of the html_string and autoplay it
 time.sleep(2)  # wait for 2 seconds to finish the playing of the audio
-sound = st.empty()
+sound_player = st.empty()
 html_string = """
-            <script>
-  document.getElementById("audio").play()
+            <script type="application/javascript">
+  document.getElementById("audio").play();
+  console.log("It's play time!!");
 </script>
             """
-sound.markdown(html_string, unsafe_allow_html=True)
+sound_player.markdown(html_string, unsafe_allow_html=True)
