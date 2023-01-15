@@ -10,8 +10,8 @@ html_string = """
 const myTimeout = setTimeout(playAudio, 5000);
 
 function playAudio() {
-  document.getElementById('audio').play()
-  clearTimeout(myTimeout);
+  console.log("helloooooo");
+  document.getElementById('audio').play();
 }
 </script>
             """
